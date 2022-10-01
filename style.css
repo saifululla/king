@@ -1,0 +1,130 @@
+/*
+Theme Name: King
+Theme URI: #
+Author: King Dev
+Author URI: #
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: king
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.comment-author.vcard img {
+    max-width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+  }
+  .commentlist {
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+  }
+  .commentlist ol li {
+    position: relative;
+  }
+  /* .commentlist ol li img {
+    position: absolute;
+  } */
+  .commentlist li {
+    padding-left: 60px;
+  }
+  
+.children {
+    padding: 0;
+    list-style: none;
+    margin: 20px 0;
+  }
+  .children .comment-author.vcard img {
+    left: 60px;
+  }
+  .comments input, .comments textarea {
+	margin-bottom: 5px;
+}
+#wp-comment-cookies-consent {
+	width: auto;
+}
+
+/* bradcumb css */
+.breadcumb li a {
+  color: #fff !important ;
+}
+
+.breadcumb li :hover a {
+  color: rgb(255, 255, 255)  !important
+}
+
+
+/* Pagination CSS */
+.navigation.pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.navigation.pagination a, .page-numbers.current {
+  font-size: 20px;
+  padding: 5px 15px;
+  border: 1px solid #333;
+  display: inline-block;
+}
+.page-numbers.current {
+  background-color: #635CDB;
+  color: #fff;
+}
+
+/* page 404  css */
+.page-404-content {
+  text-align: center;
+}
+
+.page-404-content h4 {
+  font-size: 52px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #FFF;
+  margin-bottom: 20px;
+}
+
+.page-404-content p {
+  font-size: 17px;
+  margin-right: 52px;
+  margin-top: 25px;
+}
+
+.page-404-content {
+  margin-top: 208px;
+}
+/* search css */
+
+.wp-block-search__inside-wrapper {
+  width: auto;
+  position: relative;
+}
+.wp-block-search__button {
+  position: absolute;
+  padding: 7px 5px;
+  background: #635CDB;
+  color: #fff;
+  font-weight: bold;
+  left: 210px;
+  cursor: pointer;
+}
+#wp-block-search__input-1 {
+  position: relative;
+  margin-right: 70px;
+  padding: 7px 42px;
+  margin-left: 9px;
+}
+
+h2 {
+  font-size: 66px;
+}
+/* font */
